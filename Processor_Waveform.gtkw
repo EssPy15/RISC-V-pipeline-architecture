@@ -1,0 +1,90 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Thu May 29 14:53:14 2025
+[*]
+[dumpfile] "E:\Verilog & digital\RISC_pipeline\dump.vcd"
+[dumpfile_mtime] "Thu May 29 14:10:00 2025"
+[dumpfile_size] 20292
+[savefile] "E:\Verilog & digital\RISC_pipeline\Processor_Waveform.gtkw"
+[timestart] 0
+[size] 1600 837
+[pos] -1 -1
+*-7.751049 717 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[treeopen] tb.dut.
+[sst_width] 197
+[signals_width] 236
+[sst_expanded] 1
+[sst_vpaned_height] 236
+@200
+-Global Input
+@28
+tb.dut.Fetch.clk
+tb.dut.Fetch.rst
+@200
+-Fetch stage
+@28
+tb.dut.Fetch.PCSrcE
+@22
+tb.dut.Fetch.PCTargetE[31:0]
+tb.dut.Fetch.PCD[31:0]
+tb.dut.Fetch.InstrD[31:0]
+tb.dut.Fetch.PCPlus4D[31:0]
+@200
+-Decode Stage
+@22
+tb.dut.decode.PCE[31:0]
+tb.dut.decode.PCPlus4E[31:0]
+tb.dut.decode.RD_E[4:0]
+@28
+tb.dut.decode.ALUControlE[2:0]
+tb.dut.decode.ALUSrcE
+tb.dut.decode.BranchE
+tb.dut.decode.MemWriteE
+tb.dut.decode.RegWriteE
+tb.dut.decode.ResultSrcE
+@22
+tb.dut.decode.RD1_E[31:0]
+tb.dut.decode.RD2_E[31:0]
+tb.dut.decode.Imm_Ext_E[31:0]
+@200
+-Execute Stage
+@22
+tb.dut.Execute.PCPlus4M[31:0]
+tb.dut.Execute.RD_M[4:0]
+@28
+tb.dut.Execute.MemWriteM
+tb.dut.Execute.RegWriteM
+tb.dut.Execute.ResultSrcM
+tb.dut.ForwardAE[1:0]
+@22
+tb.dut.Execute.Src_A[31:0]
+tb.dut.RS1_E[4:0]
+@28
+tb.dut.ForwardBE[1:0]
+@22
+tb.dut.Execute.Src_B[31:0]
+@23
+tb.dut.RS2_E[4:0]
+@22
+tb.dut.Execute.ResultE[31:0]
+tb.dut.Execute.ALU_ResultM[31:0]
+tb.dut.Execute.WriteDataM[31:0]
+@200
+-Memory Stage
+@22
+tb.dut.Memory.PCPlus4W[31:0]
+@28
+tb.dut.Memory.ResultSrcM
+@22
+tb.dut.Memory.ALU_ResultW[31:0]
+tb.dut.ReadDataW[31:0]
+@200
+-WriteBack Stage
+@28
+tb.dut.RegWriteW
+@22
+tb.dut.RDW[4:0]
+tb.dut.ResultW[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
