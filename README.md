@@ -40,3 +40,9 @@
 ### 5. Write Back (WB)
 - Result selection (ALU vs memory)
 - Register file writeback
+
+### Pipeline Architecture 
+
+![image](https://github.com/user-attachments/assets/d3ba6175-3fde-4568-94e9-3a063bf64f1e)
+(jump and branch intructions are not implemented)
+
